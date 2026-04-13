@@ -13,6 +13,7 @@ compinit
 
 # setup zoxide
 eval "$(zoxide init zsh)"
+source <(fzf --zsh)
 
 alias pacin="trizen -S "
 alias pacreps="trizen -Ss "
